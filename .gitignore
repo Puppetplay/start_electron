@@ -177,4 +177,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+dist/
 # End of https://www.gitignore.io/api/code,node,macos,pycharm,windows
