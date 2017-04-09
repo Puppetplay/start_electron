@@ -1,0 +1,14 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "The First Electron App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ firstApp --platform=darwin --arch x64 --out dist --prune",
+    "installer": "electron-installer-dmg ./dist/firstApp-darwin-x64/firstApp.app firstApp --out=./dist"
+  },
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
